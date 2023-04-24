@@ -67,7 +67,7 @@
         <div className="calculator container">
           <div className="form">
             <input onChange={ handleHeight } type="text" maxLength={ 4 } placeholder='height ex: 1.74 (meters)'/>
-            <input onChange={ handleWeight } type="text" maxLength={ 4 } placeholder='weight ex: 75.8 (kgs)'/>
+            <input onChange={ handleWeight } type="text" maxLength={ 4 } placeholder='weight ex: 75.1 (kgs)'/>
             <button onClick={ handleBmi } className="btn">Calculate</button>
           </div>
           <div className="table">
