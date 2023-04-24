@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #DAD7CD;
+  padding: 16px;
+}
+
+.container {
+  max-width: 600px;
+  display: flex;
+  margin: 16px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 16px;
+}
+
+.form input {
+  margin-bottom: 16px;
+  width: 170px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.btn {
+  margin-bottom: 16px;
+  width: 90px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #A3B18A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.bmi-result {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.bmi {
+  margin-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+th {
+  background-color: #DAD7CD;
+  color: #333;
+  font-size: 16px;
+}
+
+td {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.selected {
+  background-color: #A3B18A;
+}
